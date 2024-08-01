@@ -8,6 +8,7 @@
     "build:types": "dts-bundle-generator --umd-module-name HalvesSwiper  --out-file dist/HalvesSwiper.d.ts src/app/ui/HalvesSwiper/index.ts",
     "develop": "webpack serve --config ./webpack/app/develop",
     "production": "webpack --config ./webpack/app/production",
+    "productionSwiper": "webpack --config ./webpack/app/productionSwiper",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:ts": "eslint src --color --ext .tsx,.ts --fix"
   },
